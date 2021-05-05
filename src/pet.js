@@ -1,13 +1,13 @@
 
 const maximumFitness = 10;
 const maximumAge = 30;
-const hungerLevel = 0
+const hungerFine = 0
 
 
 function Pet(name) {
     this.name = name;
     this.age = 0;
-    this.hunger = hungerLevel;
+    this.hunger = hungerFine;
     this.fitness = maximumFitness;
     this.children = [];
 }
@@ -52,7 +52,7 @@ Pet.prototype.feed = function() {
         throw new Error('Your pet is no longer alive!');
     }
     if (this.hunger <= 3) {
-        this.hunger = hungerLevel
+        this.hunger = hungerFine
     } else {
         this.hunger =- 3
     };
@@ -72,6 +72,6 @@ Pet.prototype.checkUp = function () {
     
 };
 
-Pet.prototype.adoptChild = []
+// Pet.prototype.adoptChild = []
 
 module.exports = Pet;
