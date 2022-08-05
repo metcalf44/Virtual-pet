@@ -2,10 +2,9 @@
   "name": "virtual-pet",
   "version": "1.0.0",
   "description": "Making a virtual pet",
-  "main": "pet.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "jest"
   },
   "author": "Ernie Metcalf",
   "license": "ISC",

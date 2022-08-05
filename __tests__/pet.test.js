@@ -14,8 +14,8 @@ describe('constructor', () => {
     });
 
     it('Pet has a new age of 0', () => {
+
         const pet = new Pet('Chase');
-    
         expect(pet.age).toEqual(0);
     });
 
