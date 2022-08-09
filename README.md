@@ -3,6 +3,10 @@ Virtual Pet
 Lets be honest pets can be hard work. Well not no more, 
 here is the virtual pet you can:
 
+This can be run in the terminal/node repl
+
+start by naming your pet
+
 - Name it. const petName = new Pet("pet name")
 - Feed it. petName.feed()
 - Walk it. petName.walk()
